@@ -3,7 +3,7 @@
      frozenset -> Immutable set (like- frozenset({1, 2, 3}))
      Immutable means that the items of frozenset cannot be changed after creation.
      Sets are used to store multiple items in a single variable,
-     and they automatically remove duplicate items.
+     and they automatically remove duplicate items. 
      """
 unique_numbers = {1,1,5,1,2,4,2,3,3,4,4,4,4}  # Set of unique numbers
 print(unique_numbers)  # => {1, 2, 3, 4, 5}
